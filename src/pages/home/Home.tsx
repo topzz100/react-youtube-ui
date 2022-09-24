@@ -1,23 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { ThemeProvider } from 'styled-components'
 import LeftBar from '../../components/leftBar/LeftBar'
 import Navbar from '../../components/navbar/Navbar'
 import VideoList from '../../components/videoList/VideoList'
+import { darkTheme, lightTheme } from '../../utils/theme'
+import Video from '../video/Video'
 import { Container, Wrapper } from './home.styles'
 
-type props = {
-  lightMode : boolean,
-  setLightMode: any
-}
 
-const Home: React.FC<props> = ({lightMode, setLightMode}) => {
+const Home = () => {
+  const [lightMode, setLightMode] = useState(false)
   return (
-    <Wrapper> 
+    <ThemeProvider theme= {lightMode? lightTheme :darkTheme}>
+      <Wrapper> 
       <Navbar/>
       <Container>
         <LeftBar lightMode= {lightMode} setLightMode={setLightMode}/>
-        <VideoList/>
+          
+          {/* <VideoList/> */}
+          <Video/>
       </Container>
     </Wrapper>
+    </ThemeProvider> 
+    
   )
 }
 
