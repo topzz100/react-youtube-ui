@@ -10,14 +10,9 @@ export const Content = styled.div`
 export const VideoWrapper = styled.div` 
   display: flex;
   height: 90px;
-  /* width: 95%; */
   margin-bottom: 10px;
   gap: 5px;
 `
-// export const ImgBox = styled.div` 
-//   height: 100%;
-//   width: 150px;
-// `
 export const Image = styled.img` 
   height: 100%;
   object-fit: cover;

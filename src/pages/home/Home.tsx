@@ -4,6 +4,7 @@ import LeftBar from '../../components/leftBar/LeftBar'
 import Navbar from '../../components/navbar/Navbar'
 import VideoList from '../../components/videoList/VideoList'
 import { darkTheme, lightTheme } from '../../utils/theme'
+import SignIn from '../signIn/SignIn'
 import Video from '../video/Video'
 import { Container, Wrapper } from './home.styles'
 
@@ -18,7 +19,8 @@ const Home = () => {
         <LeftBar lightMode= {lightMode} setLightMode={setLightMode}/>
           
           {/* <VideoList/> */}
-          <Video/>
+          {/* <Video/> */}
+        <SignIn/>
       </Container>
     </Wrapper>
     </ThemeProvider> 

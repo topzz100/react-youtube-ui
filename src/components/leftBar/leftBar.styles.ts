@@ -15,6 +15,7 @@ export const Item = styled.div`
   padding: 7px 0;
   display: flex;
   align-items: center;
+  cursor: pointer;
   .MuiSvgIcon-root{
     color: ${props => props.theme.text};
     margin-right: 10px;
