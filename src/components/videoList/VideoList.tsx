@@ -12,6 +12,9 @@ const VideoList = () => {
         <VideoCard/>
         <VideoCard/>
         <VideoCard/>
+        <VideoCard/>
+        <VideoCard/>
+        <VideoCard/>
       </Content>
     </Wrapper>
   )

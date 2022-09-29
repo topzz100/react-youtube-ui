@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-  flex: 0.8;
+  flex: 0.85;
   background: ${props => props.theme.bg};
   padding: 20px 50px;
 `

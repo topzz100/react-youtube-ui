@@ -12,19 +12,19 @@ export const Content = styled.div`
 `
 export const Item = styled.div`
   color: ${props => props.theme.text};
-  padding: 7px 0;
+  padding: 6px 0;
   display: flex;
   align-items: center;
   cursor: pointer;
   .MuiSvgIcon-root{
     color: ${props => props.theme.text};
     margin-right: 10px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
 `
 export const Span = styled.span`
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
 `
 export const Hr = styled.hr`

@@ -1,4 +1,4 @@
-import { Home, Search } from '@mui/icons-material'
+import { ArticleOutlined, ExploreOutlined, FlagOutlined, HelpOutlineOutlined, HistoryOutlined, Home, LibraryMusicOutlined, LiveTvOutlined, MovieOutlined, Search, SettingsOutlined, SportsBasketballOutlined, SportsEsportsOutlined, SubscriptOutlined, VideoLibraryOutlined } from '@mui/icons-material'
 import React from 'react'
 import { Content, Heading, Hr, Item, Span, Wrapper } from './leftBar.styles'
 
@@ -19,13 +19,13 @@ const LeftBar: React.FC<props> = ({lightMode, setLightMode}) => {
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <ExploreOutlined/>
           <Span>
             Explore
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <SubscriptOutlined/>
           <Span>
             Subscriptions
           </Span>
@@ -34,13 +34,13 @@ const LeftBar: React.FC<props> = ({lightMode, setLightMode}) => {
         <Hr/>
         
         <Item>
-          <Home/>
+          <VideoLibraryOutlined/>
           <Span>
             Library
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <HistoryOutlined/>
           <Span>
             History
           </Span>
@@ -50,37 +50,37 @@ const LeftBar: React.FC<props> = ({lightMode, setLightMode}) => {
           BEST OF TOPZZTUBE
         </Heading>
         <Item>
-          <Home/>
+          <LibraryMusicOutlined/>
           <Span>
             Music
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <SportsBasketballOutlined/>
           <Span>
             Sports
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <SportsEsportsOutlined/>
           <Span>
             Gaming
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <MovieOutlined/>
           <Span>
             Movies
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <ArticleOutlined/>
           <Span>
             News
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <LiveTvOutlined/>
           <Span>
             Live
           </Span>
@@ -88,19 +88,19 @@ const LeftBar: React.FC<props> = ({lightMode, setLightMode}) => {
 
         <Hr/>
         <Item>
-          <Home/>
+          <SettingsOutlined/>
           <Span>
             Settings
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <FlagOutlined/>
           <Span>
             Report
           </Span>
         </Item>
         <Item>
-          <Home/>
+          <HelpOutlineOutlined/>
           <Span>
             Help
           </Span>

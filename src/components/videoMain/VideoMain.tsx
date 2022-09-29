@@ -1,4 +1,4 @@
-import { Home } from '@mui/icons-material'
+import { AddTaskOutlined, Home, ReplyOutlined, ThumbDownAltOutlined, ThumbUpOutlined } from '@mui/icons-material'
 import Comments from '../comments/Comments'
 import { ChannelDesc, ChannelInfo, ChannelLeft, ChannelProfile, ChannelTitle, Extra, Hr, Image, Info, Item, Options, Pic, Span, SubNum, Subscribe, Time, Title, VideoInfo, VideoInfoBottom, Views, Wrapper } from './videoMain.styles'
 
@@ -22,25 +22,25 @@ const VideoMain = () => {
             </Extra>
             <Options>
               <Item>
-                <Home/>
+                <ThumbUpOutlined/>
                 <Span>
                   Like
                 </Span>
               </Item>
               <Item>
-                <Home/>
+                <ThumbDownAltOutlined/>
                 <Span>
                   Dislike
                 </Span>
               </Item>
               <Item>
-                <Home/>
+                <ReplyOutlined/>
                 <Span>
                   Share
                 </Span>
               </Item>
               <Item>
-                <Home/>
+                <AddTaskOutlined/>
                 <Span>
                   Save
                 </Span>
